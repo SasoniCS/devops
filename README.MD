@@ -1,11 +1,10 @@
-# OCR 
+# ORQUESTRAÇÃO DE AUTOMAÇÕES COM POSTGRESQL
 
 ## Descrição  
-Projeto para leitura de caracteres em documentos ou imagens simples.
+Este código tem como objetivo construir uma orquestradora de automações utilizando Python e Postgre.
 
 ## Ferramentas
 Python
+Postgresql
 
-## Requisitos
-pyautogui  
-time  
+## Bibliotecas
