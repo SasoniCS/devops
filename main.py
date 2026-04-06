@@ -9,5 +9,9 @@ try:
         port='',
         database=''
     )
+
+    cursor = connection.cursor()
+
+    
 except (Exception, psycopg2.errors) as e:
     print(f'Erro ao conectar no banco de dados. {e}')
