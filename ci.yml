@@ -1,10 +1,8 @@
 name: CI
-
 on:
-  push:
-    branches: "main"
   pull_request:
-    branches: "main"
+    branches: 
+      - main
 
 jobs:
   build:
@@ -12,3 +10,8 @@ jobs:
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v4
+
+      - name: Python Lint
+        uses: advanced-security/python-lint-code-scanning-action@v1.1.1
+        with:
+          linter: pylint
