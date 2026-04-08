@@ -14,7 +14,7 @@ jobs:
       - name: Simular deploy
         uses: actions/upload-artifact@v4
         with: 
-          name: projetozipado.zip
+          name: deployzip.zip
           path: |
             **.py
             README.md
